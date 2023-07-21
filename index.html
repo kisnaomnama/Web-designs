@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>EastBay Project By Krishna Surkheti</title>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="top">
+            <div class="search-bar">
+                <div class="start-bar">
+                    <img src="assets/leaf.png" alt="leaf-pic" class="leaf-logo">
+                    <h1>EastBay</h1>
+                </div>
+                <div class="end-bar">
+                    <input type="text" placeholder="  Search for anything " class="search-area-logo">
+                    <p><a href="#">Sign In</a></p>
+                    <img src="assets/cart-dark.png" alt="cart-img" onclick="alert('Your Cart is empty!')">
+                    <!-- <img src="assets/cart-dark.png" alt="cart-img" onclick="_cartMassage()" -could use this too> -->
+                </div>
+            </div>
+            <div class="nav-list-bar">
+                <ul class="links">
+                    <li onclick="loading()"><a href="#">Aeonium</a></li>
+                    <li onclick="loading()"><a href="#">Andormischus</a></li>
+                    <li onclick="loading()"><a href="#">Agave</a></li>
+                    <li onclick="loading()"><a href="#">Aloe</a></li>
+                    <li onclick="loading()"><a href="#">Anacampseros</a></li>
+                    <li onclick="loading()"><a href="#">Aristaloe</a></li>
+                    <li onclick="loading()"><a href="#">More...</a></li>
+                </ul>
+            </div>
+        </div>
+        <h1 class="center-text">Your Source for Serious Succulent Specialties</h1>
+        <div class="container">
+            <div class="row">
+                <div class="left">
+                    <div class="discription">
+                        <p>Discover succ- <br>
+                            ulent varieties <br>
+                            one pot or rack <br>
+                            at a time!
+                        </p>
+                        <p id="discover">Discovers
+                            <img src="assets/arrow-light.png" alt="arrow-logo" class="arrow-logo"></span></p>
+                    </div>
+                    <img id="image" src="assets/succulents-2.jpg" alt="succ2-pic" onmouseover= "newImage()" onmouseout="oldImage()">    
+
+                </div>
+                <div class="right">
+                    <img src="assets/aloe-m.jpg" alt="aloe-pic" class="aloe-img">
+                    <div>
+                        <p>Soothing aloe</p><img src="assets/arrow-light.png" alt="arrow-logo" class="arrow-logo"></p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="bottom-body">
+                <ul class="plants">
+                    <li><img src="assets/aeonium-s.jpg" alt="aeo-pic" class="plantPhoto" id="photo1">
+                        <p>Aeonium</p>
+                    </li>
+                    <li><img src="assets/aloe-s.jpg" alt="aloe-pic" class= "plantPhoto">
+                        <p>Aloe</p>
+                    </li>
+                    <li><img src="assets/cactus-s.jpg" alt="cactus-pic" class= "plantPhoto">
+                        <p>Cactus</p>
+                    </li>
+                    <li><img src="assets/echeveria-s.jpg" alt="eche-pic" class="plantPhoto">
+                        <p>Sedum</p>
+                    </li>
+                    <li><img src="assets/sedum-s.jpg" alt="sedum-pic" class= "plantPhoto">
+                        <p>Aeonium</p>
+                    </li>
+                    <li><img src="assets/sempervivum-s.jpg" alt="semo-pic" class="plantPhoto">
+                        <p>Sempervivum</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer">
+            <div class="cookie-policy">
+                <img src="assets/alert-dark.png" alt="alert-logo" class="alert-logo">
+                <span>This site makes use of third-party cookies,by clicking "I accept"
+                    you agree to the <br>terms outlined in our <a href="#">cookie policy</a></span>
+                <span><button class="btn" onclick="_accept()">I accept</button></span>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

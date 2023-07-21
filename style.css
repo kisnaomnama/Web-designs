@@ -1,0 +1,179 @@
+*{
+ margin:0;
+padding:0;
+}
+
+.wrapper{
+margin: 0 auto;
+padding: 5px; 
+width: 1080px;
+}
+
+.search-bar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.nav-list-bar ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    }
+    
+    .nav-list-bar a, .search-bar a{
+    text-decoration: none;
+    color: black;
+    font-weight: 900;
+    }
+    
+    
+    .nav-list-bar{
+        border-bottom: solid;
+    }
+    
+
+.center-text{
+    text-align: center;
+    margin: 20px 0px;
+    font-family: 'Roboto', sans-serif;
+    font-stretch: extra-expanded;
+    font-weight:200;  
+}
+
+.start-bar, .end-bar{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+.end-bar{
+    flex:2;
+}
+
+.search-area-logo{
+    margin: 0 20px;
+    flex:2;
+    height: 30px;
+    font-weight: 400;
+    border-radius: 20px;
+    border: 2px solid rgb(183, 176, 176);  
+}
+
+.cart-logo{
+    height: 30px;
+    margin-left: 10px;
+}
+
+.leaf-logo{
+    background-color:#08e0d9;
+    height: 50px;
+    margin-right: 10px;
+}
+
+.row{
+    display: flex;
+    height: 300px
+}
+
+.left{
+display: flex;
+flex:2;
+font-family: 'Roboto', sans-serif;
+font-stretch: extra-expanded;
+text-align: center;
+justify-content: center;
+justify-content: space-between;
+margin-right: 20px;
+}
+
+.right{
+font-family: 'Roboto', sans-serif;
+}
+
+.right>div{
+    display: flex;
+    align-items: center;
+    background-color:#08e0d9;
+    color:white;
+    margin-top: 10px;
+    padding: 20px;
+}
+
+.right .arrow-logo{
+height: 30px;
+}
+
+.discription{
+background-color:#08e0d9;
+color:white;
+font-size: 1.6rem; 
+padding-top:40px;
+flex: auto;
+align-items: center;
+font-stretch: extra-expanded;
+width: 50%;
+}
+
+.discription p{
+    margin-bottom: 50px;
+}
+
+.left .arrow-logo{
+    height: 32px;
+}
+
+.bottom-body{
+    margin-top: 20px;
+    padding: 40px 20px 0 20px;
+    background-color: rgb(202, 248, 249);
+    font-size: 1.1rem;
+}
+
+.bottom-body ul{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    list-style: none;
+}
+
+.plantPhoto{
+    height: 150px;
+    margin-bottom: 10px;
+    border-radius: 50%;
+}
+
+.footer .btn{
+    padding: 5px 20px;
+    font-size: 1.2rem;
+    border: 2px solid #000;
+    box-shadow: 4px 4px #000;
+    background-color:#08e0d9;
+    color: white;
+    cursor: pointer;
+}
+
+.alert-logo{
+    height: 80px;
+}
+
+.cookie-policy{
+    box-sizing: border-box;
+    border: 2px solid #999;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    justify-content: space-between;
+    font-size: 1.3rem;
+    padding: 0px 20px;
+}
+
+.footer {
+    width: 1080px;
+    position: absolute;
+    background-color: white;
+    bottom: 10;
+}
+
